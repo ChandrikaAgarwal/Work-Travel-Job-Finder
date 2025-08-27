@@ -13,7 +13,6 @@ const ParentComponent = () => {
         const matchIndustry = industry ? record.industry === industry : true;
         return matchState && matchIndustry
     });
-
     
     const filteredRecords = finalRecords.filter((record) =>
         record.companyName.toLowerCase().includes(search.toLowerCase()) || record.industry.toLowerCase().includes(search.toLowerCase())

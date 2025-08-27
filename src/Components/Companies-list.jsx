@@ -14,8 +14,8 @@ const Companies = (props) => {
                 <div className="">
                 <h2 className="text-xl font-bold text-blue-800">{record.companyName }</h2>
                 <p className="text-md font-mono italic">{record.industry }</p>
-                <p className="font-light">{record.address }</p>
-                <p className="font-semibold">Contact: {record.phoneNumber}</p>
+                <p className="font-light">{record.address}</p>
+                <p className="font-semibold text-blue-500">{record.phoneNumber}</p>
                          
                 </div>
                 <div className="flex items-center ml-28 space-x-2">
